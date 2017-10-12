@@ -1,0 +1,17 @@
+<web-app>
+
+<servlet>
+<servlet-name>employee</servlet-name>
+<servlet-class>DBsrv</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>employee</servlet-name>
+<url-pattern>/DBsrv</url-pattern>
+</servlet-mapping>
+
+<welcome-file-list>
+<welcome-file>emp.html</welcome-file>
+</welcome-file-list>
+
+</web-app>
